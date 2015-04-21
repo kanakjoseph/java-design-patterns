@@ -42,7 +42,7 @@ Structural patterns are concerned with how classes and objects are composed to f
  
 ### Behavioral Patterns
 
-Behavioral patterns are concerned with algorithms and the assignment of responsibilites between objects.
+Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects.
 
 * [Chain of responsibility](#chain-of-responsibility)
 * [Command](#command)
@@ -198,7 +198,7 @@ A programming idiom is a means of expressing a recurring construct in one or mor
 **Applicability:** Use Decorator
 * to add responsibilities to individual objects dynamically and transparently, that is, without affecting other objects
 * for responsibilities that can be withdrawn
-* when extension by subclassing is impractical. Sometimes a large number of independent extensions are possible and would produce an explosion of sublasses to support every combination. Or a class definition may be hidden or otherwise unavailable for subclassing
+* when extension by subclassing is impractical. Sometimes a large number of independent extensions are possible and would produce an explosion of subclasses to support every combination. Or a class definition may be hidden or otherwise unavailable for subclassing
 
 ## <a name="facade">Facade</a> [&#8593;](#list-of-design-patterns)
 **Intent:** Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
